@@ -8,10 +8,12 @@
 
 import Foundation
 
-struct Book {
+struct Book: Equatable, Codable {
    let title: String
-   let reasonToRead: Bool
+   let reasonToRead: String
    let hasBeenRead: Bool
+
+    }
     
     
 }
