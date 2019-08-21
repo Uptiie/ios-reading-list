@@ -16,7 +16,6 @@ struct Book: Equatable, Codable {
     }
     
     
-}
 
 struct ShippingOptions: OptionSet {
     let rawValue: Int
